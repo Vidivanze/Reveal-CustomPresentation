@@ -4,6 +4,251 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
+@font-face {
+  font-family: presTitle;
+  src: url(./fonts/EuclidCircularB/EuclidCircularB-Medium-WebXL.woff);
+}
+@font-face {
+  font-family: presSubTitle;
+  src: url(./fonts/EuclidCircularB/EuclidCircularB-Regular-WebS.woff);
+}
+@font-face {
+  font-family: pageTitle;
+  src: url(./fonts/EuclidCircularB/EuclidCircularB-Semibold-WebS.woff);
+}
+@font-face {
+  font-family: pageSubTitle;
+  src: url(./fonts/EuclidCircularB/EuclidCircularB-Medium-WebS.woff);
+}
+@font-face {
+  font-family: pageText;
+  src: url(./fonts/EuclidCircularB/EuclidCircularB-Regular-WebS.woff);
+}
+.slides {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.custom {
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0% !important;
+}
+
+.aligner {
+  position: fixed;
+  top: 29% !important;
+  left: 24%;
+}
+
+.title {
+  font-family: presTitle !important;
+  font-size: 90px !important;
+}
+
+.point {
+  display: inline;
+  color: #167BC0 !important;
+}
+
+.intro-sub-title {
+  font-family: presSubTitle !important;
+  font-size: 28px !important;
+}
+
+.page-title {
+  color: #0F2235;
+  font-family: pageTitle !important;
+  font-size: 85px !important;
+}
+
+.page-title-dark {
+  color: #ffffff;
+  font-family: pageTitle !important;
+  font-size: 85px !important;
+}
+
+.page-sub-title {
+  color: #167BC0;
+  font-family: pageSubTitle !important;
+  font-size: 40px !important;
+}
+
+.page-text {
+  color: #333333;
+  font-family: pageText !important;
+  font-size: 29px;
+}
+
+.page-text-dark {
+  color: #ffffff;
+  font-family: pageText !important;
+  font-size: 29px;
+}
+
+.intro {
+  background-image: linear-gradient(to bottom, rgba(15, 34, 53, 0), rgba(15, 34, 53, 0.23)), url(../assets/image.jpeg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.logo-intro {
+  display: block;
+  position: fixed;
+  top: 26% !important;
+  width: 153px;
+  height: 25px;
+  background: url(../assets/logo_iomedia.svg);
+}
+
+.page-2 {
+  background-color: #ffffff !important;
+}
+
+.page-3 {
+  background-color: #0F2235 !important;
+}
+
+.content-1 {
+  position: fixed;
+  text-align: left;
+  top: 60%;
+  left: 24%;
+}
+
+.sidebar {
+  display: block;
+  position: fixed;
+  left: 20%;
+  top: 0px !important;
+  bottom: 0px !important;
+  width: 60px !important;
+  height: 100% !important;
+  background-color: #ffffff !important;
+  border-color: #333333;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.sidebar-title {
+  font-size: 15px;
+  font-family: pageText;
+  color: #0F2235;
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 26%;
+  left: 19%;
+  width: 140px;
+  height: 39px;
+}
+
+.logo-sidebar {
+  position: fixed;
+  transform: rotate(-90deg);
+  width: 88px;
+  height: 18px;
+  bottom: 30%;
+  left: 19%;
+}
+
+.page-number {
+  color: #C8C8C8;
+  font-size: 20px;
+  font-family: pageText;
+  position: fixed;
+  left: 20%;
+  bottom: 20%;
+  width: 29px;
+  padding: 13px 3px 22px 29px;
+  border-top: 1px solid #333333;
+  text-align: left;
+}
+
+.content-2 {
+  position: fixed;
+  text-align: left;
+  width: 41%;
+}
+
+.list {
+  padding: 5%;
+  margin-left: 5%;
+}
+
+.list-element {
+  display: inline;
+  margin-left: 2% !important;
+}
+
+.content-3 {
+  position: fixed;
+  text-align: left;
+  width: 41%;
+}
+
+.sidebar-dark {
+  display: block;
+  position: fixed;
+  left: 20%;
+  top: 0px !important;
+  bottom: 0px !important;
+  width: 60px !important;
+  height: 100% !important;
+  background-color: #0F2235 !important;
+  border-color: #333333;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.sidebar-title-dark {
+  font-size: 15px;
+  font-family: pageText;
+  color: #ffffff;
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 26%;
+  left: 19%;
+  width: 140px;
+  height: 39px;
+}
+
+.logo-sidebar-dark {
+  position: fixed;
+  transform: rotate(-90deg);
+  width: 88px;
+  height: 18px;
+  bottom: 30%;
+  left: 19%;
+}
+
+.page-number-dark {
+  color: #C8C8C8;
+  font-size: 20px;
+  font-family: pageText;
+  position: fixed;
+  left: 20%;
+  bottom: 20%;
+  width: 29px;
+  padding: 13px 3px 22px 29px;
+  border-top: 1px solid #333333;
+  text-align: left;
+}
+
+.image-section-dark {
+  background-color: #1F3042;
+  width: 41%;
+  height: 100%;
+  float: right;
+}
+
+.image-3 {
+  position: fixed;
+  top: 25%;
+  left: 53%;
+  width: 27%;
+}
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff;
 }
