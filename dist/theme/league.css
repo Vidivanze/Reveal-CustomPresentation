@@ -154,7 +154,7 @@
   position: fixed;
   left: 0%;
   bottom: 0%;
-  padding: 30px 26px 30px 26px;
+  padding: 30px 33px 30px 33px;
   border-top: 1px solid #e3e3e3;
   text-align: center;
 }
@@ -185,7 +185,7 @@
   width: 80px !important;
   height: 100% !important;
   background-color: #0F2235 !important;
-  border-left: 1px solid #333333;
+  border-right: 1px solid #e3e3e3;
 }
 
 .sidebar-title-dark {
@@ -212,15 +212,14 @@
 
 .page-number-dark {
   color: #C8C8C8;
-  font-size: 20px;
+  font-size: 25px;
   font-family: pageText;
   position: fixed;
-  left: 20%;
-  bottom: 20%;
-  width: 29px;
-  padding: 13px 3px 22px 29px;
+  left: 0%;
+  bottom: 0%;
+  padding: 30px 33px 30px 33px;
   border-top: 1px solid #333333;
-  text-align: left;
+  text-align: center;
 }
 
 .image-section-dark {
