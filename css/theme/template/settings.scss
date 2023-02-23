@@ -76,6 +76,7 @@
 	color: #167BC0;
 	font-family: pageSubTitle !important;
 	font-size: 40px !important;
+    padding-top: 20px;
 }
 
 .page-text {
@@ -164,14 +165,21 @@
 }
 
 .list {
-	padding: 5%;
-	margin-left: 5%;
+	padding: 3%;
+    margin-left: 4%;
+}
+
+.hyphen{
+	display: inline-block;
+	padding-right: 5px;
+	color: #167BC0 !important;
 }
 
 .list-element {
-	display: inline;
+	display: inline-block;
 	margin-left: 2% !important;
 }
+
 
 .page-3 {
 	background-color: #0F2235 !important;
