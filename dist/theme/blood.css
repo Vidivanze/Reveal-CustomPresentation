@@ -116,6 +116,10 @@
   background-color: #0F2235 !important;
 }
 
+.page-4 {
+  background-color: #0F2235 !important;
+}
+
 .content-1 {
   position: fixed;
   text-align: left;
@@ -253,6 +257,18 @@
   top: 25%;
   left: 53%;
   width: 27%;
+}
+
+.content-4 {
+  position: fixed;
+  text-align: left;
+  width: 50%;
+  left: 27%;
+  top: 23%;
+}
+
+.video-4 {
+  width: 90%;
 }
 
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
