@@ -90,10 +90,19 @@
 }
 
 .intro {
-  background-image: linear-gradient(to bottom, rgba(15, 34, 53, 0), rgba(15, 34, 53, 0.23)), url(../assets/image.jpeg) !important;
+  background-image: linear-gradient(to bottom, rgba(15, 34, 53, 0.23), rgba(15, 34, 53, 0.23)), url(../assets/image.jpeg) !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
+}
+
+.gradient {
+  position: fixed;
+  background: linear-gradient(to bottom, rgba(15, 34, 53, 0), rgba(15, 34, 53, 0.23));
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 45%;
 }
 
 .content-intro {
