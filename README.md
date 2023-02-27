@@ -1,5 +1,15 @@
 # Template custom de présentation Reveal.js 
 
+## Run
+```
+npm start
+```
+
+## Build
+```
+npm run build
+```
+
 ## Settings
 Pour l'ajout de css custom et desactiver les propriétés par defaut
 
