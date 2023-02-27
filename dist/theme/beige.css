@@ -5,6 +5,47 @@
  */
 @import url(./fonts/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@media (max-width: 568px) {
+  /* .grid-wrapper {
+  	grid-template-areas: "header" "content" "credit";
+  	grid-template-columns: auto;
+  } */
+}
+@media (min-width: 1280px) {
+  /* .content {
+  	display: grid;
+  	grid-template-areas: "title description";
+  	grid-template-columns: auto 40%;
+  	grid-column-gap: 10vmin;
+  }
+  .page-title .page-title-dark {
+  	grid-area: title;
+  } */
+}
+/* .reveal .slides section.title .grid-wrapper {    
+	box-sizing: border-box;
+	display: grid;
+	grid-template-areas:
+	  "header header"
+	  "content content"
+	  ". credit";
+	grid-template-columns: auto 40%;
+	grid-template-rows: 6vmin 1fr auto;
+	grid-column-gap: 10vmin;
+	height: 100%;
+	padding: 10vmin;
+  }
+  .logo {
+	 grid-area: header;
+  }
+  .content {
+	align-self: center;
+	grid-area: content;
+  }
+  .credit {
+	grid-area: credit;
+  }
+   */
 @font-face {
   font-family: presTitle;
   src: url(./fonts/EuclidCircularB/EuclidCircularB-Medium-WebXL.woff);
@@ -237,18 +278,12 @@
   text-align: center;
 }
 
-.image-section-dark {
-  background-color: #1F3042;
-  width: 41%;
-  height: 100%;
-  float: right;
-}
-
 .image-3 {
   position: fixed;
+  display: block;
+  height: 70%;
   top: 10%;
   right: 0%;
-  width: 49%;
 }
 
 .page-4 {
