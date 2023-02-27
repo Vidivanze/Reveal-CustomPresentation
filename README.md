@@ -27,5 +27,5 @@ Modification du theme : ajout d'un fichier scss et l'importer dans settings.scss
 - settings.scss
 
 //custom css
-@import '../IO-theme.scss';
+@import './IO-theme.scss';
 ```
