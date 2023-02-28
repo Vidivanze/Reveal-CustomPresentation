@@ -4,23 +4,6 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
-@media (max-width: 568px) {
-  /* .grid-wrapper {
-  	grid-template-areas: "header" "content" "credit";
-  	grid-template-columns: auto;
-  } */
-}
-@media (min-width: 1280px) {
-  /* .content {
-  	display: grid;
-  	grid-template-areas: "title description";
-  	grid-template-columns: auto 40%;
-  	grid-column-gap: 10vmin;
-  }
-  .page-title .page-title-dark {
-  	grid-area: title;
-  } */
-}
 @font-face {
   font-family: presTitle;
   src: url(./fonts/EuclidCircularB/EuclidCircularB-Medium-WebXL.woff);

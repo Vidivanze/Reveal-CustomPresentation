@@ -3,23 +3,6 @@
  * Dracula Dark theme for reveal.js.
  * Based on https://draculatheme.com
  */
-@media (max-width: 568px) {
-  /* .grid-wrapper {
-  	grid-template-areas: "header" "content" "credit";
-  	grid-template-columns: auto;
-  } */
-}
-@media (min-width: 1280px) {
-  /* .content {
-  	display: grid;
-  	grid-template-areas: "title description";
-  	grid-template-columns: auto 40%;
-  	grid-column-gap: 10vmin;
-  }
-  .page-title .page-title-dark {
-  	grid-area: title;
-  } */
-}
 @font-face {
   font-family: presTitle;
   src: url(./fonts/EuclidCircularB/EuclidCircularB-Medium-WebXL.woff);
