@@ -11,7 +11,7 @@ npm run build
 ```
 
 ## Print to PDF
-Dans l'url ajoutez le paramètre print-pdf : localhost:8000/?print-pdf
+Dans l'url ajoutez le paramètre print-pdf : localhost:8000/?print-pdf, puis ctrl+p (impression sans marges)
 
 ## Settings
 Pour l'ajout de css custom et desactiver les propriétés par defaut
